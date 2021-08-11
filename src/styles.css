@@ -1,0 +1,23 @@
+@import url(https://lift-ui.netlify.app/lift.css);
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.centered-div{
+  width:100%;
+  margin: auto;
+}
+
+.container{
+  max-width: fit-content;
+}
+
+.btn-no-hover:hover{
+  transform: scale(1);
+}
+
+.btn-width{
+  width: 50%;
+}
