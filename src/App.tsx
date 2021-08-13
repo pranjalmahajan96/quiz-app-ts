@@ -1,7 +1,7 @@
 import React from 'react';
 import "./styles.css";
 import { Route, Routes } from "react-router-dom";
-import { Quiz, Navbar } from "./components";
+import { Quiz, Navbar, Home } from "./components";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Quiz />
       <Routes>
-        {/* <Route path="/quiz" element={<Quiz />} /> */}
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );
